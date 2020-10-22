@@ -13,13 +13,13 @@ The repo uses the [Docsify](https://docsify.js.org/) static site generator to cr
 The following tree structure is applied: 
 
 ```
-├── home.md									// Top level content
-├── protocol								// Section folder
-    └── overview.md					// Section content
-└── zh-cn										// Localised folder
-        ├── home.md					// Localised top level content
-        └── protocol				// Localised Section folder
-        		└── overview.md	// Localised content
+├── home.md                 // Top level content
+├── protocol                // Section folder
+    └── overview.md         // Section content
+└── zh-cn                   // Localised folder
+        ├── home.md         // Localised top level content
+        └── protocol        // Localised Section folder
+        		└── overview.md // Localised content
 ```
 
 The repo should follow this structure, so keep this in mind when making contributions to the project.
@@ -31,10 +31,10 @@ The sidebar of the site is governed by the `_sidebar.md` file. This file is stru
 ```
 <!-- _navbar.md -->
 
-* Getting started							 		// Section Header
-  * [Quick start](quickstart.md)	// Section Link
-  * [FAQs](faqs.md)								// Section Link
-* Protocol										 		// Section Header
+* Getting started                 // Section Header
+  * [Quick start](quickstart.md)  // Section Link
+  * [FAQs](faqs.md)               // Section Link
+* Protocol                        // Section Header
 ....
 ```
 
