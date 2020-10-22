@@ -15,11 +15,11 @@ The following tree structure is applied:
 ```
 ├── home.md                 // Top level content
 ├── protocol                // Section folder
-    └── overview.md         // Section content
+     └── overview.md        // Section content
 └── zh-cn                   // Localised folder
-        ├── home.md         // Localised top level content
-        └── protocol        // Localised Section folder
-        		└── overview.md // Localised content
+     ├── home.md            // Localised top level content
+     └── protocol           // Localised section folder
+          └── overview.md   // Localised content
 ```
 
 The repo should follow this structure, so keep this in mind when making contributions to the project.
