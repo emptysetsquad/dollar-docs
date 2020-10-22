@@ -1,6 +1,5 @@
 <!-- docs/_sidebar.md -->
 * Getting Started
-  * [Home](/)
   * [FAQs](frequently-asked-questions.md)
 * Protocol
   * [Overview](/protocol/overview.md)
