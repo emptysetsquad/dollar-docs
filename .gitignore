@@ -1,3 +1,4 @@
 _docpress
 node_modules
 .idea
+.vercel
