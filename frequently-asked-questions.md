@@ -96,14 +96,15 @@ Coupon investing has hard to calculate risks -- you have to have a view on when 
 6. Come back to the ESD DAO wallet page: http://emptyset.finance/#/wallet/
 7. Click unlock to allow the DAO to interact with your ESD
 
-![Unlocking the DAO](/Users/lewi/Documents/ethereum/dollar-docs/_media/empty-dao.png)
+![Unlocking the DAO](_media/empty-dao.png)
 
 8. Enter the number of ESD into the Staged Deposit box -- or click max -- then click the Deposit button and approve the transaction, wait for that transaction to complete on the Ethereum network.
 
-![Staging via the DAO website](/Users/lewi/Documents/ethereum/dollar-docs/_media/stage.png)
+![Staging via the DAO website](_media/stage.png)
 
 8. Click Max to load the box next to the “bond” button and click bond. When that transaction clears, your ESD will be bonded to the DAO and begin earning rewards at the end of the epoch. 
 
-![](/Users/lewi/Documents/ethereum/dollar-docs/_media/bond.png)
+![Bonding ESD via the DAO](_media/bond.png)
 
 >  **Note**: that once you initiate a bond during an epoch, you will not be able to deposit/withdraw thereafter during that epoch (until the next epoch resets), per below on Frozen/Fluid state.
+
