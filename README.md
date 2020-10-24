@@ -66,7 +66,7 @@ The following is a typical workflow for submitting new content is as follows:
 1. Fork this repository
 2. Create a new branch based on your fork
 3. Commit changes and push them to your fork
-4. Create a pull request against the `develop` branch
+4. Create a pull request against the `staging` branch
 
 If all [status checks](https://help.github.com/articles/about-status-checks/) pass, and the maintainer approves the PR, it will be merged. Somethimes reviewers may ask you to complete additional fixes or other changes before your pull request can be approved and merged.
 
