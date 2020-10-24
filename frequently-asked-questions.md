@@ -1,8 +1,14 @@
 # Frequently Asked Questions about ESD
 
+<hr/>
+
 ## Empty Set Døllar
 
-### What is Empty Set Dollar and how is it different from other stablecoins?
+### What is Empty Set Dollar? 
+
+ESD is designed to be fully a decentralized self-stabilizing dollar.
+
+###  How does ESD differ from other stablecoins?
 
 A community member has written an article comparing and contrasting various approaches to stable coins. The TL:DR is:
 
@@ -33,6 +39,16 @@ ESD uses a seigniorage model to grow the money supply. This means, if the market
 
 For ESD to become a sustainably useful stablecoin like USDT or DAI, it must begin to be accepted as currency by DeFi and other applications on the Ethereum protocol. In periods of volatility, the token's utility may be diminished. However, as the protocol matures the volatility will reduce increasing its utility. 
 
+### I want to contribute to ESD’s success, what should I do?
+
+Thank you for wanting to help make the project succeed. You can contribute to everyone’s benefit in many ways. Some clear ones:
+
+- Take time to read the white paper and these docs to understand the implications of the protocol and how it can be applied to the DeFi ecosystem.
+- Join the Discord group linked from the DAO to help answer questions & discuss governance issues. 
+- Advocate for ESD to be added into other DeFi platforms
+
+<hr />
+
 ## Token Mechanics
 
 ### What is an epoch?
@@ -46,6 +62,41 @@ Coupon is the method used to shrink the money supply. Simply, the protocol offer
 ### What is staging?
 
 ### What is bonding?
+
+### What do frozen and fluid states mean?
+
+The best way to visualize this is with the flow below:
+
+**Deposit/Withdraw ←→ Staged ←→ Bond/Unbond.**
+
+- Any time, you use Bond or Unbond once, you go into a fluid state in that epoch
+- Upon the next epoch, you will go back into the frozen state
+
+**In fluid state:**
+
+- You will not be able to withdraw or deposit
+- You will be able to bond/unbond any number of times.
+
+**In Frozen state:**
+
+- You will be able to deposit and withdraw.
+
+This means when you are bonded and want to withdraw, you will first unbond, spend the rest of the epoch in fluid state and upon next epoch when state changes to frozen, you will be able to withdraw.
+
+For Deposit, you will be able to deposit and bond in the same epoch as when you deposit and stage you will still be in a frozen state, but as soon as you bond, you will be in a fluid state, so you cannot deposit again in that epoch, or withdraw.
+
+
+Frozen and fluid states (also Locked) appear on the wallet page and the LP Reward Pool page of the DAO.  This terminology is a bit confusing, but you are basically allowed to interact with the DAO by bonding or unbonding ESD or LP just once per epoch.  Frozen and fluid tell you the state of your access to transacting with the DAO.  “Frozen” enables you to transact.  More state detail is discussed in the white paper.
+
+### Should I advance an epoch? What does this mean?
+
+Epochs happen every eight hours. For technical reasons, someone needs to manually trigger the start of a new epoch.  A number of users have written bots competing for the 100 ESD reward to be the first to trigger it, as a new user I would not worry about this technical detail.
+
+### What does the governance page do and how should I engage with it?
+
+Since ESD is owned by the users, there is a governance section for proposals to make changes. You need to own at least 1% of bonded DAO to make a new proposal. This again is probably something to engage in when you have already mastered the basics.
+
+<hr/>
 
 ## Maintaining ESD's price peg
 
@@ -65,7 +116,7 @@ If you buy ESD on Uniswap but do nothing else, no. Your ESD is in a state called
 
 ### What methods exist to receive ESD rewards?
 
-There are three methods to invest in the growth of the ESD money supply:
+There are three methods to generate rewards when holding ESD:
 
 1. Take your ESD and bond it to the DAO (recommended for beginners)
 2. Take your ESD and provide liquidity to the Uniswap LP pool, and bond those tokens to the DAO to receive liquidity rewards. 
@@ -122,3 +173,10 @@ You should probably not do this unless you have experience with UniSwap LP staki
 4. Under the "Stage" section: Enter amount and click "Deposit", and wait for confirmation
 5. Under the "Bond" section: Enter amount and click "Bond", and wait for confirmation
 
+<hr />
+
+## Troubleshooting
+
+### I am trying to do an action on the DAO site, such as deposit or bond, and the button stays grayed out or won’t work -- why might this happen?
+
+Chances are, you already did a transaction in this epoch, and have to wait until the next epoch to interact again.  See above regarding frozen and fluid states.
