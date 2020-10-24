@@ -96,6 +96,18 @@ Epochs happen every eight hours. For technical reasons, someone needs to manuall
 
 Since ESD is owned by the users, there is a governance section for proposals to make changes. You need to own at least 1% of bonded DAO to make a new proposal. This again is probably something to engage in when you have already mastered the basics.
 
+### Why do some epochs grant rewards and some epochs do not?
+
+If there is excess demand for ESD, then the price will trend above \$1 on the UniSwap pool, and that signals the protocol to mint additional token supply. Conversely, if the demand shrinks, excess selling on UniSwap will push the price below $1, which triggers the protocol to generate debt and incentivise token holders to burn ESD to shrink the token supply.
+
+If the money supply needs to be shrunk, no supply expansion will be made that epoch. If the money supply was shrunk in the past, those debts will either remain on the protocol, or get bought by users in the form of coupons. Both coupons and debt will be paid off in the future ahead of new rewards, so it is possible to receive no new rewards in a money supply expansion epoch if there are historical debts to be repaid first.
+
+### How do we know if any given epoch will have rewards and how much rewards?
+
+You can’t know for sure until right when the new epoch is triggered as the TWAP price is adjusted by the trading activity right up to the new Epoch. 
+
+You can estimate the amount of rewards by looking at the Regulation page on the DAO and doing some calculations. However a community maintained website, called [ESD Tools](https://esd.tools/), that makes an estimate of what, if any, rewards can be expected in this epoch, but it is not perfect, only indicative.
+
 <hr/>
 
 ## Maintaining ESD's price peg
@@ -172,6 +184,27 @@ You should probably not do this unless you have experience with UniSwap LP staki
 3. Click "Unlock", and wait for confirmation
 4. Under the "Stage" section: Enter amount and click "Deposit", and wait for confirmation
 5. Under the "Bond" section: Enter amount and click "Bond", and wait for confirmation
+
+### What can I do with rewards from bonding to the DAO?
+
+If you have bonded to the DAO, any awarded ESD are automatically bonded, so your rewards continue to compound automatically.
+
+If you want to sell ESD, you must first unbond them from the DAO, and then unstage them. After you unbond, you need to wait until the subsequent epoch to unstage them. This delay of a full epoch to access your ESD is deliberate.
+
+### What can I do with rewards from bonding Uniswap LP tokens?
+
+After you are rewarded tokens for providing liquidity to the UniSwap pool, they will appear on the LP Reward Pool page of the DAO (http://emptyset.finance/#/pool/) under rewarded on the header. Those tokens, in that state, are circulating -- they are not generating further rewards. 
+
+If you want to roll them into additional ownership of the UniSwap LP pool, you can do it easily with one click. On the bottom of the LP Reward Pool page, you see a “Provide” section. It will also display your USDC balance in your connected wallet. You can enter a number from your awarded tokens (or just click Max) into the box, and if you have sufficient USDC to contribute the necessary proportion demanded by the pool at that time, you will trigger a transaction by clicking provide that will take your rewarded ESD, and the appropriate amount of USDC, add it to the UniSwap pool, and stake the UniSwap LP token you receive in return to the DAO -- effectively increasing your ownership in the LP pool.
+
+Alternatively, if you want to withdraw your awarded tokens or bond them to the DAO, you have to:
+
+	1. Click 'Max' next to the Unbond button.
+ 	2. Click unbond and send the transaction
+ 	3. Once confirmed you should see the tokens move from "Rewarded" to "Claimable"
+ 	4. If you wish to re-bond your UniSwap LP tokens and continue to get rewards in the next epoch. Then click 'max' next to Bond, then send the Bond transaction
+ 	5. Wait 1 epoch
+ 	6. Click claim and then the tokens will be in your wallet
 
 <hr />
 
