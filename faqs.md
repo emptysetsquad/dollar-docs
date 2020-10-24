@@ -98,7 +98,7 @@ Since ESD is owned by the users, there is a governance section for proposals to 
 
 ### Why do some epochs grant rewards and some epochs do not?
 
-If there is excess demand for ESD, then the price will trend above \$1 on the UniSwap pool, and that signals the protocol to mint additional token supply. Conversely, if the demand shrinks, excess selling on UniSwap will push the price below $1, which triggers the protocol to generate debt and incentivise token holders to burn ESD to shrink the token supply.
+If there is excess demand for ESD, then the price will trend above \$1 on the Uniswap pool, and that signals the protocol to mint additional token supply. Conversely, if the demand shrinks, excess selling on Uniswap will push the price below $1, which triggers the protocol to generate debt and incentivise token holders to burn ESD to shrink the token supply.
 
 If the money supply needs to be shrunk, no supply expansion will be made that epoch. If the money supply was shrunk in the past, those debts will either remain on the protocol, or get bought by users in the form of coupons. Both coupons and debt will be paid off in the future ahead of new rewards, so it is possible to receive no new rewards in a money supply expansion epoch if there are historical debts to be repaid first.
 
@@ -153,7 +153,7 @@ Purchasing coupons also has risks -- you have to have a view on when the protoco
 ### What are the exact steps to buy ESD from Uniswap and bond to the DAO?
 
 1. Go to the Wallet page on the DAO site:  http://emptyset.finance/#/wallet/ 
-2. Click on Trade button to go to UniSwap
+2. Click on Trade button to go to Uniswap
 3. Connect to Uniswap, and approve the tokens for trading
 
 ![Uniswap USDC-ESD pair](_media/uniswap-usdcesd.png)
@@ -177,7 +177,7 @@ Purchasing coupons also has risks -- you have to have a view on when the protoco
 
 ### What are the exact steps to bond Uniswap LP pool tokens?
 
-You should probably not do this unless you have experience with UniSwap LP staking. If you are comfortable with the processed the following:
+You should probably not do this unless you have experience with Uniswap LP staking. If you are comfortable with the processed the following:
 
 1. Bond ESD & ESDC on Uniswap
 2. Go to https://emptyset.finance/#/pool/
@@ -193,16 +193,16 @@ If you want to sell ESD, you must first unbond them from the DAO, and then unsta
 
 ### What can I do with rewards from bonding Uniswap LP tokens?
 
-After you are rewarded tokens for providing liquidity to the UniSwap pool, they will appear on the LP Reward Pool page of the DAO (http://emptyset.finance/#/pool/) under rewarded on the header. Those tokens, in that state, are circulating -- they are not generating further rewards. 
+After you are rewarded tokens for providing liquidity to the Uniswap pool, they will appear on the LP Reward Pool page of the DAO (http://emptyset.finance/#/pool/) under rewarded on the header. Those tokens, in that state, are circulating -- they are not generating further rewards. 
 
-If you want to roll them into additional ownership of the UniSwap LP pool, you can do it easily with one click. On the bottom of the LP Reward Pool page, you see a “Provide” section. It will also display your USDC balance in your connected wallet. You can enter a number from your awarded tokens (or just click Max) into the box, and if you have sufficient USDC to contribute the necessary proportion demanded by the pool at that time, you will trigger a transaction by clicking provide that will take your rewarded ESD, and the appropriate amount of USDC, add it to the UniSwap pool, and stake the UniSwap LP token you receive in return to the DAO -- effectively increasing your ownership in the LP pool.
+If you want to roll them into additional ownership of the Uniswap LP pool, you can do it easily with one click. On the bottom of the LP Reward Pool page, you see a “Provide” section. It will also display your USDC balance in your connected wallet. You can enter a number from your awarded tokens (or just click Max) into the box, and if you have sufficient USDC to contribute the necessary proportion demanded by the pool at that time, you will trigger a transaction by clicking provide that will take your rewarded ESD, and the appropriate amount of USDC, add it to the Uniswap pool, and stake the Uniswap LP token you receive in return to the DAO -- effectively increasing your ownership in the LP pool.
 
 Alternatively, if you want to withdraw your awarded tokens or bond them to the DAO, you have to:
 
 	1. Click 'Max' next to the Unbond button.
  	2. Click unbond and send the transaction
  	3. Once confirmed you should see the tokens move from "Rewarded" to "Claimable"
- 	4. If you wish to re-bond your UniSwap LP tokens and continue to get rewards in the next epoch. Then click 'max' next to Bond, then send the Bond transaction
+ 	4. If you wish to re-bond your Uniswap LP tokens and continue to get rewards in the next epoch. Then click 'max' next to Bond, then send the Bond transaction
  	5. Wait 1 epoch
  	6. Click claim and then the tokens will be in your wallet
 
