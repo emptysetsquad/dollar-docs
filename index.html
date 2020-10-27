@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>ESD Documentation - Empty Set Dollar</title>
+  <title>ESD Docs</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
+  <meta name="description" content="An community run documentation site for the Empty Set Dollar">
   <link rel="icon" 
       type="image/png" 
       href="_media/icon.png">
@@ -25,10 +25,22 @@
       name: 'Empty Set Dollar',
       logo: '/_media/esd.png',
       repo: '',
-      search: 'auto',
       homepage: 'home.md',
       loadSidebar: true,
       subMaxLevel: 2,
+      search: {
+        noData: {
+          '/de-de/': 'Keine Ergebnisse!',
+          '/zh-cn/': '没有结果!',
+          '/': 'No results!'
+        },
+        paths: 'auto',
+        placeholder: {
+          '/de-de/': 'Suche',
+          '/zh-cn/': '搜索',
+          '/': 'Search'
+        },
+      }
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
