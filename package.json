@@ -1,14 +1,20 @@
 {
   "name": "dollar-docs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "ESD protocol documentation",
+  "main": "index.js",  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "docpress": "0.8.2"
+  "dependencies": {
+    "next": "^10.0.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "nextra": "^0.3.1",
+    "nextra-theme-docs": "^0.3.3"
   }
 }

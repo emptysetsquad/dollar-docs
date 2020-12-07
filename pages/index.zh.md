@@ -2,7 +2,7 @@
 
 完全去中心化的自动稳定币
 
-![](../_media/header.jpg)
+![](/header.jpg)
 
 ## 什么是 ESD?
 

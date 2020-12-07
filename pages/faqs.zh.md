@@ -160,22 +160,22 @@ Purchasing coupons also has risks -- you have to have a view on when the protoco
 2. 点击 ‘Trade’ 按钮传送至 Uniswap
 3. 连接到Uniswap，并批准代币进行交易
 
-![Uniswap USDC-ESD pair](../_media/uniswap-usdcesd.png)
+![Uniswap USDC-ESD pair](/uniswap-usdcesd.png)
 
 4. 在Uniswap中输入一定数量的USDC，批准交易并购买ESD。.
 5. 市场的流动性每小时变化时，请注意价格和滑点。
 6. 返回ESD DAO钱包页面:[ http://emptyset.finance/#/wallet/](http://emptyset.finance/#/wallet/)
 7. 单击’Unlock’解锁以允许DAO与您的ESD交互
 
-![Unlocking the DAO](../_media/empty-dao.png)
+![Unlocking the DAO](/empty-dao.png)
 
 8. Ethereum network.在Staged栏里的Deposit框中输入ESD的数量（或单击“最大”），然后单击“Deposit存款”按钮并批准交易，等待该交易在以太坊网络上完成。
 
-![Staging via the DAO website](../_media/stage.png)
+![Staging via the DAO website](/stage.png)
 
 9. 在’Bond’(绑定)旁边点击“Max‘(最大)以自动输入最大数额，然后单击“Bond”(绑定)。交易完成后，您的ESD将绑定到DAO，并在下时期开始获得奖励。 
 
-![Bonding ESD via the DAO](../_media/bond.png)
+![Bonding ESD via the DAO](/bond.png)
 
 >  **注意**：一旦您在当下时期内使用的了’Bond’(绑定)，您将无法在该时期内进行存款/提款（直到下一个时期）
 
