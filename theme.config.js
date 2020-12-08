@@ -44,8 +44,8 @@ export default {
       />
     </React.Fragment>
   ),
-  i18n: [
-    { locale: 'en', text: 'English' },
-    { locale: 'zh', text: '简体中文' },
-  ],
+  // i18n: [
+  //   { locale: 'en', text: 'English' },
+  //   { locale: 'zh', text: '简体中文' },
+  // ],
 }

@@ -2,9 +2,9 @@
 
 fully decentralized self-stabilizing dollar
 
-![](/header.jpg)
+![](/info.png)
 
-## What is ESD?
+## What is Empty Set Dollar?
 
 Empty Set Dollar is a fully decentralized, algorithmically self-stabilizing digital dollar. The protocol is centred around an [ERC-20](https://www.investopedia.com/news/what-erc20-and-what-does-it-mean-ethereum/) token: [ESD](https://www.coingecko.com/en/coins/empty-set-dollar). This token acts both as the stabilized dollar and as the governance token for the protocol. 
 
