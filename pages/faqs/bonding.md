@@ -10,6 +10,15 @@ When entering the DAO, your tokens must pass through a staging phase. This state
 
 ### How do I bond ESD tokens?
 
+Bonding tokens requires a user follow these steps: 
+1. Connect their wallet to https://app.empyset.finance. 
+2. From the app, click on DAO. Your balance should appear. 
+3. Deposit the tokens you wish to bond into the staged area and click the plus sign, and agree to the transaction. When those coins are staged they will be available to bond. 
+4. Enter tokens that you wish to bond, and again agree to the transaction. Those coins will be bonded and they will require a 15 epoch exit lockup in order to go back to a frozen state.
+
+Note: The process of bonding will incur transaction fees.
+
+
 ### Why do some epochs grant rewards and some epochs do not?
 
 If there is excess demand for ESD, then the price will trend above \$1 on the Uniswap pool, and that signals the protocol to mint additional token supply. Conversely, if the demand shrinks, excess selling on Uniswap will push the price below $1, which triggers the protocol to generate debt and incentivise token holders to burn ESD to shrink the token supply.
