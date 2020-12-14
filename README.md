@@ -6,7 +6,7 @@ The live URL of the site is https://docs.emptyset.finance
 
 ## Summary
 
-The repo uses the [Docsify](https://docsify.js.org/) static site generator to create a documentation website from a series of markdown files. These files follow a file tree structure to segment sections and keep the repo maintainable.
+The repo uses the Nextra generator to create a documentation website from a series of markdown files. These files follow a file tree structure to segment sections and keep the repo maintainable.
 
 ### File Structure
 
@@ -14,45 +14,26 @@ The following tree structure is applied:
 
 ```
 ├── home.md                 // Top level content
+├── meta.json               // Top level menu info
 ├── protocol                // Section folder
+     ├── meta.json          // Section menu info
      └── overview.md        // Section content
-└── zh-cn                   // Localised folder
-     ├── home.md            // Localised top level content
-     └── protocol           // Localised section folder
-          └── overview.md   // Localised content
 ```
 
 The repo should follow this structure, so keep this in mind when making contributions to the project.
-
-### Sidebar
-
-The sidebar of the site is governed by the `_sidebar.md` file. This file is structured in a way to show headings:
-
-```
-<!-- _navbar.md -->
-
-* Getting started                 // Section Header
-  * [Quick start](quickstart.md)  // Section Link
-  * [FAQs](faqs.md)               // Section Link
-* Protocol                        // Section Header
-....
-```
-
-The sidebar should follow this structure, so keep this in mind when making contributions to the project.
 
 ## How to run the site
 
 In order to preview the site locally you need to do the following things:
 
 ```
-npm i docsify-cli -g
-
 git clone https://github.com/emptysetsquad/dollar-docs
 
 cd dollar-docs
 
-docsify serve
+yarn
 
+yarn dev
 ```
 
 ## How to Contribute
