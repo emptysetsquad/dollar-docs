@@ -16,7 +16,6 @@ Empty Set Dollar (ESD) 是一种为了满足去中心化金融(DeFi)而生、一
 ## 与其他稳定币相异的特殊之处
 
 相较于其他项目，推动 ESD 运作的协议有着许多特殊的设计、在你持有前必须好好了解的：
-ESD has composed a number of different mechanics from various projects into a single protocol. This combination gives it unique features.
 
 - **去中心化** - 永远按照链上的治理代币推动。（持有代币本身就是一种参与）
 - **自稳定性** - 依据链上的价格自动做调节、不需要任何机构做干预
