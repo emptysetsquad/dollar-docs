@@ -1,6 +1,7 @@
 {
     "index": "Home",
     "faqs": "FAQs",
+    "protocol": "Protocol",
     "audits":"Audits",
     "resources": "Resources"
 }
