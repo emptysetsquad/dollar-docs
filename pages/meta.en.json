@@ -1,6 +1,7 @@
 {
-    "index": "Home",
-    "faqs": "FAQs",
-    "audits":"Audits",
-    "resources": "Resources"
+  "index": "Home",
+  "guides": "Guides",
+  "audits": "Audits",
+  "resources": "Resources",
+  "faqs": "FAQs"
 }

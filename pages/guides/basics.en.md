@@ -10,7 +10,7 @@ Empty Set Dollar (ESD) is an algorithmic stablecoin built to be the reserve curr
 
 ### How does ESD differ from other stablecoins?
 
-Empty Set Dollar's protocol was designed by taking elements from numerous pre-existing protocols to produce a balanced protocol that avoids the pitfalls of other protocol designs.  
+Empty Set Dollar's protocol was designed by taking elements from numerous pre-existing protocols to produce a balanced protocol that avoids the pitfalls of other protocol designs.
 
 The resulting protocol sidesteps the centralisation risks of USDC, USDT, & TUSD, attempts to avoid AMPL & BASED’s "death spirals", the over-collateralisation requirements of sUSD & DAI, and, most importantly, it integrates seamlessly with existing DeFi protocols.
 
@@ -18,7 +18,7 @@ The resulting protocol sidesteps the centralisation risks of USDC, USDT, & TUSD,
 
 ### How does ESD become a sustainably useful token?
 
-For ESD to become a sustainably useful stablecoin like USDT or DAI, it must begin to be accepted as currency by DeFi and other applications on the Ethereum protocol. In periods of volatility, the token's utility may be diminished. However, as the protocol matures the volatility will reduce increasing its utility. 
+For ESD to become a sustainably useful stablecoin like USDT or DAI, it must begin to be accepted as currency by DeFi and other applications on the Ethereum protocol. In periods of volatility, the token's utility may be diminished. However, as the protocol matures the volatility will reduce increasing its utility.
 
 ### Who created Empty Set Dollar?
 
@@ -26,5 +26,4 @@ The original founding team is anonymous. However, if you'd like to contact them 
 
 ### Who controls Empty Set Dollar?
 
-Since launch Empty Set Dollar has had on-chain governance. This means that any changes or upgrades to the protocol need to be voted on by the community of token holders before they are enacted. 
-
+Since launch Empty Set Dollar has had on-chain governance. This means that any changes or upgrades to the protocol need to be voted on by the community of token holders before they are enacted.
