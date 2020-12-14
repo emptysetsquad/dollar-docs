@@ -1,6 +1,6 @@
 # Protocol Parameters
 
-Below is a list of all of the currently implemented parameters for the ESD protocol.
+Below is a list of all of the implemented parameters for the ESD protocol as of EIP-10's passing:
 
 ## Basics
 
