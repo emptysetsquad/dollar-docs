@@ -1,6 +1,6 @@
 {
-    "index": "Translation for home",
-    "faqs": "etc",
-    "audits":"etc",
-    "resources": "etc"
+  "index": "主頁",
+  "faqs": "常见问题",
+  "audits": "关于审计",
+  "resources": "其他学习资源"
 }
