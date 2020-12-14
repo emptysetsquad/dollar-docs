@@ -1,7 +1,7 @@
 {
   "index": "主页",
-  "guides": "教程",
+  "faqs": "教程",
+  "protocol": "协议",
   "audits": "关于审计",
-  "resources": "其他学习资源",
-  "faqs": "问与答"
+  "resources": "其他学习资源"
 }
