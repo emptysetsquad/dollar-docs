@@ -18,6 +18,8 @@ Bonding tokens requires a user follow these steps:
 
 Note: The process of bonding will incur transaction fees.
 
+You can click **Bond** button to bond your own ESD token.
+![](/how_to_bond.png)
 
 ### Why do some epochs grant rewards and some epochs do not?
 
@@ -47,5 +49,4 @@ This means when you are bonded and want to withdraw, you will first unbond, spen
 
 For Deposit, you will be able to deposit and bond in the same epoch as when you deposit and stage you will still be in a frozen state, but as soon as you bond, you will be in a fluid state, so you cannot deposit again in that epoch, or withdraw.
 
-
-Frozen and fluid states (also Locked) appear on the wallet page and the LP Reward Pool page of the DAO.  This terminology is a bit confusing, but you are basically allowed to interact with the DAO by bonding or unbonding ESD or LP just once per epoch.  Frozen and fluid tell you the state of your access to transacting with the DAO.  “Frozen” enables you to transact.  More state detail is discussed in the white paper.
+Frozen and fluid states (also Locked) appear on the wallet page and the LP Reward Pool page of the DAO. This terminology is a bit confusing, but you are basically allowed to interact with the DAO by bonding or unbonding ESD or LP just once per epoch. Frozen and fluid tell you the state of your access to transacting with the DAO. “Frozen” enables you to transact. More state detail is discussed in the white paper.
