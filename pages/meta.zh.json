@@ -1,6 +1,7 @@
 {
-  "index": "主頁",
-  "faqs": "常见问题",
+  "index": "主页",
+  "guides": "教程",
   "audits": "关于审计",
-  "resources": "其他学习资源"
+  "resources": "其他学习资源",
+  "faqs": "问与答"
 }
