@@ -1,6 +1,6 @@
 # Protocol Parameters
 
-Below is a list of all of the currently implemented parameters for the ESD protocol.
+Below is a list of all of the implemented parameters for the ESD protocol as of EIP-10's passing:
 
 ## Basics
 
@@ -108,7 +108,7 @@ Below is a list of all of the currently implemented parameters for the ESD proto
 
 ### Uniswap ESD/USDC Pair
 
-- Address: [0x88ff79eB2Bc5850F27315415da8685282C7610F9](https://etherscan.io/address/0x443d2f2755db5942601fa062cc248aaa153313d3)
+- Address: [0x88ff79eB2Bc5850F27315415da8685282C7610F9](https://etherscan.io/address/0x88ff79eB2Bc5850F27315415da8685282C7610F9)
 
 ### ESD/USDC Rewards
 
