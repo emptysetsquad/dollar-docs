@@ -53,15 +53,11 @@ Below is a list of all of the implemented parameters for the ESD protocol as of 
 
 ### Coupons
 
-- Max debt ratio: **35%**
-- Max coupon premium: **45%**
-- Premium curve: [source code](https://github.com/emptysetsquad/dollar/blob/8f3ab50f725d2eb08842e7095237829082b48c76/protocol/contracts/dao/Curve.sol#L64)
+- Max debt ratio: **15%**
+- Max coupon premium: **38.4%**
+- Premium curve: [source](https://github.com/emptysetsquad/dollar/pull/12)
 
-![](/curve.gif)
-
-
-
-
+![](/curve-new.png)
 
 ## Governance
 
