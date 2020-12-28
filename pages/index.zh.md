@@ -6,7 +6,7 @@
 
 Empty Set Dollar (ESD) 是一种为了满足去中心化金融(DeFi)而生、一种基于演算法且不需要抵押物所生成的稳定币。 ESD 背后运行的机制是基于 ETH 网路上的智能合约协议所运作、不需要任何资产做抵押而生成，一种 [ERC-20](https://www.investopedia.com/news/what-erc20-and-what-does-it-mean-ethereum/) 类型的稳定币。
 
-你可以在这边查询带币的相关讯息：
+你可以在这边查询代币的相关讯息：
 [ESD](https://www.coingecko.com/en/coins/empty-set-dollar).
 
 而 ESD 代币本身除了是一种稳定币以外、更是一种治理代币。
