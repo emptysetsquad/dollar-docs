@@ -101,7 +101,7 @@ Below is a list of all of the implemented parameters for the ESD protocol as of 
 
 ### Treasury
 
-- Address: [0x460661bd4A5364A3ABCc9cfc4a8cE7038d05Ea22](https://etherscan.io/address/0x443d2f2755db5942601fa062cc248aaa153313d3)
+- Address: [0x460661bd4A5364A3ABCc9cfc4a8cE7038d05Ea22](https://etherscan.io/address/0x460661bd4A5364A3ABCc9cfc4a8cE7038d05Ea22)
 - Type: Gnosis Safe (Multi-signature)
 - Signers: 7 
 - Threshold: 4 of 7 signatures
