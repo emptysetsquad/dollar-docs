@@ -12,7 +12,7 @@ With this in mind, it is easy to see an ERC-20 stablecoin with an [audited contr
 ### Empty Set Dollar Risks
 
 Participating in Empty Set Dollar has its risks. Mainly, it is important to remember that ESD is an **early stage monetary experiment** whose value is not derived from any collateral, but instead careful incentives, game theory, and most importantly, others’ trust. There is a possibility that ESD’s system fails, which will realize value and IL risk to the fullest (i.e. ESD becomes worthless).
-* Note that ESD eventually plans to become partially collateralized (see [here](https://medium.com/@scott_lew_is/a-vision-for-empty-set-dollar-ce29b7e0e297)).
+* Note that some members of the community has proposed partially collateralization in the future (see [here](https://medium.com/@scott_lew_is/a-vision-for-empty-set-dollar-ce29b7e0e297)).
 
 In fact, a higher APY generally implies more volatility in the system and fewer users, equating to higher risk. Conversely, a lower APY likely implies lower volatility, more users, and a longer time of existence. Given that ESD derives its value from trust and performance, there is lower risk of failure in this case.
 
