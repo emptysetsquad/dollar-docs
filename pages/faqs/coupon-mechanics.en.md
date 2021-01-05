@@ -6,9 +6,9 @@ Coupon is the method used to shrink the money supply. Simply, the protocol offer
 
 ### What are the current mechanics?
 
-The coupon premium is based on the ratio of debt vs supply within the protocol. As the debt ratio increases the premium will increase along a curve. The current maximum for debt is 15% of the total supply and the maximum premium is 38.4%.
+The coupon premium is based on the ratio of debt vs supply within the protocol. As the debt ratio increases the premium will increase along a curve. The current maximum for debt is 20% of the total supply and the maximum premium is 56%.
 
-For clarification purposes, each epoch that passes with the TWAP under $1 the debt will grow, and in turn, the premium will too. Under the status quo, the debt increase maxes out at 3% per epoch, for a total maximum 35%. If the TWAP price is over 1 at the advancement of an epoch then coupons will be redeemable, and the debt is reverted back to 0, and with it the premium.
+For clarification purposes, each epoch that passes with the TWAP under $1 the debt will grow, and in turn, the premium will too. Under the status quo, the debt increase maxes out at 3% per epoch, for a total maximum 20%. If the TWAP price is over 1 at the advancement of an epoch then coupons will be redeemable, and the debt is reverted back to 0, and with it the premium.
 
 By burning the ESD for coupons the supply is shrinking and in it’s place coupons are created. These coupons will be redeemable if/when ESD’s goes back up over $1. The premium as a function of the debt ratio (R = debt/supply) is given as follows:
 
