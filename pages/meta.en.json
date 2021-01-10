@@ -1,7 +1,8 @@
 {
   "index": "Home",
-  "guides": "Guides",
+  "faqs": "FAQs",
+  "protocol": "Protocol",
+  "governance": "Governance",
   "audits": "Audits",
-  "resources": "Resources",
-  "faqs": "FAQs"
+  "resources": "Resources"
 }

@@ -1,7 +1,8 @@
 {
   "index": "主页",
-  "guides": "教程",
+  "faqs": "常见问题",
+  "protocol": "智能合约协议",
+  "governance": "治理模式",
   "audits": "关于审计",
-  "resources": "其他学习资源",
-  "faqs": "问与答"
+  "resources": "其他学习资源"
 }
