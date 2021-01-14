@@ -1,5 +1,7 @@
 # On-Chain Protocol Governance
 
+![](/dao.png)
+
 This form of governance is used to upgrade the smart contracts that govern the ESD token. 
 
 ### Requirements & Settings
