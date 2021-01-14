@@ -18,7 +18,7 @@ The length of time between adjustment to the money supply. Every epoch, currentl
 
 Epochs happen every eight hours. For technical reasons, someone needs to manually trigger the start of a new epoch. A number of users have written bots competing for the 100 ESD reward to be the first to trigger it, as a new user I would not worry about this technical detail.
 
-SmartContract Address:
+Smart contract Address:
 [https://etherscan.io/address/0x443d2f2755db5942601fa062cc248aaa153313d3](https://etherscan.io/address/0x443d2f2755db5942601fa062cc248aaa153313d3)
 
 ### Why do some epochs grant rewards and some epochs do not?
