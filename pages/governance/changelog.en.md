@@ -97,3 +97,9 @@ See more [here](https://github.com/emptysetsquad/dollar/pull/12)
 
 See more [here](https://github.com/emptysetsquad/dollar/pull/13)
 
+### 14. Split Coupon Underlying
+
+- Reduce the risk of coupons by splitting their principle with their premium reward, treating them differently upon expiration.
+
+See more [here](https://github.com/emptysetsquad/dollar/pull/17)
+
