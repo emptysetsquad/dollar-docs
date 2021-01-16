@@ -23,7 +23,7 @@ Below is a list of all of the implemented parameters for the ESD protocol as of 
 **TWAP above 1 USDC where totalCoupons = totalRedeemable**
 
 - Maximum Supply Expansion: **3%**
-- Expansion Percentage: `twapPrice - 1 * 100` or 3% (whichever is lower) 
+- Expansion Percentage: (`twapPrice - 1) * 100` or 3% (whichever is lower) 
 - Expansion Distribution:
   - DAO: **77.5%**
   - Redeemable: **0%**
@@ -33,7 +33,7 @@ Below is a list of all of the implemented parameters for the ESD protocol as of 
 **TWAP above 1 USDC where totalCoupons > totalRedeemable**
 
 - Maximum Supply  Expansion: **6%**
-- Expansion Percentage: `twapPrice - 1 * 100` or 6% (whichever is lower) 
+- Expansion Percentage: (`twapPrice - 1) * 100` or 6% (whichever is lower) 
 - Expansion Distribution:
   - DAO: **0%**
   - Redeemable: **77.5%**
@@ -44,7 +44,7 @@ Below is a list of all of the implemented parameters for the ESD protocol as of 
 
 - Maximum Supply Expansion: **0%**
 - Maximum Debt Expansion: **3%**
-- Expansion Percentage: `1 - twapPrice * 100` or 3% (whichever is lower) 
+- Expansion Percentage: `(1 - twapPrice) * 100` or 3% (whichever is lower) 
 - Expansion Distribution:
   - DAO: **0%**
   - Redeemable: **0%**
