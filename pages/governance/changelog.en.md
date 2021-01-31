@@ -33,7 +33,7 @@ Epoch 105, 2020-10-08
 
 ### Tracking
 - [Pull request](https://github.com/emptysetsquad/dollar/pull/2)
-- Implementation: [0xBe3c2149729a7c001FEfc5b9c1EF829d242dE0CC](https://etherscan.io/address/0xcbaBfc142D6c3D4B3E83744132785A25ef967cC4)
+- Implementation: [0xcbaBfc142D6c3D4B3E83744132785A25ef967cC4](https://etherscan.io/address/0xcbaBfc142D6c3D4B3E83744132785A25ef967cC4)
 - [DAO Vote](https://app.emptyset.finance/#/governance/candidate/0xcbaBfc142D6c3D4B3E83744132785A25ef967cC4)
 - Commit: [0xc31b48b8fbeb05ebafc4d12cc4001e91b316dead629764570508a465d2029028](https://etherscan.io/tx/0xc31b48b8fbeb05ebafc4d12cc4001e91b316dead629764570508a465d2029028)
 
@@ -105,7 +105,7 @@ Epoch 183, 2020-11-03
 - Commit: [0x588563a6303697dab56e7a157c69a8e450290a09caa547affd5750a435617f0a](https://etherscan.io/tx/0x588563a6303697dab56e7a157c69a8e450290a09caa547affd5750a435617f0a)
 
 
-## 9. EIP-3: Removing sequencing from expansion rewards, 2020-11-13
+## 9. EIP-3: Removing sequencing from expansion rewards
 Epoch 213, 2020-11-13
 ### Changes
 - Increase the expansion rate to 6% while there are coupons that have not been credited for redemption.
@@ -132,9 +132,11 @@ Epoch 249, 2020-11-25
 ### Tracking
 - [Pull request:](https://github.com/emptysetsquad/dollar/pull/10) Note that this PR was not fully applied in the implementation as someone proposed a simplified version of the contract. The QoL improvements were proposed later (see #11 below).
 - Implementation: [fd6d0c38211f29f6668a3e6886ca7dced0162208](https://etherscan.io/address/fd6d0c38211f29f6668a3e6886ca7dced0162208)
-- Commit: [0x567a137fed165b5b2ce6a1777b4bea0b3c09cb24d9b10852bf837de7e6b65c5e](https://etherscan.io/tx/0x567a137fed165b5b2ce6a1777b4bea0b3c09cb24d9b10852bf837de7e6b65c5e) 
 - [Forum discussion](https://www.emptyset.xyz/t/eip-8-quorum-and-proposal-threshold-reductions/)
 - [Discord discussion](https://discord.com/channels/752342816033603624/780110721924464710/780112731364655136)
+- [DAO vote](https://app.emptyset.finance/#/governance/candidate/fd6d0c38211f29f6668a3e6886ca7dced0162208)
+- Commit: [0x567a137fed165b5b2ce6a1777b4bea0b3c09cb24d9b10852bf837de7e6b65c5e](https://etherscan.io/tx/0x567a137fed165b5b2ce6a1777b4bea0b3c09cb24d9b10852bf837de7e6b65c5e)
+
 
 ### 11. Quality of life improvements, 2020-12-02
 
@@ -146,8 +148,9 @@ Epoch 249, 2020-11-25
 - Standardizes events for incentivization rewards.
 
 ### Tracking
-- Commit: [0xcb9a816e674d6bb25fc5beb8d974c29750f1db26e4bc3690048f9865167c3881](https://etherscan.io/tx/0xcb9a816e674d6bb25fc5beb8d974c29750f1db26e4bc3690048f9865167c3881)
 - Implementation: [0xdC99214431bEb52877Cde88C81155D29f61D6e09](https://etherscan.io/address/0xdC99214431bEb52877Cde88C81155D29f61D6e09)
+- Commit: [0xcb9a816e674d6bb25fc5beb8d974c29750f1db26e4bc3690048f9865167c3881](https://etherscan.io/tx/0xcb9a816e674d6bb25fc5beb8d974c29750f1db26e4bc3690048f9865167c3881)
+
 
 
 ## 12. EIP-10: Protocol Funding (Treasury)
@@ -177,15 +180,15 @@ Epoch 213, 2020-12-23
 
 ### Tracking
 - [Pull request](https://github.com/emptysetsquad/dollar/pull/12)
-- Implementation: [0x4202Ffe860A2B77225d446bAfb8e346e054dA361](https://etherscan.io/address/0x4202Ffe860A2B77225d446bAfb8e346e054dA361)
+- Implementation: [0x57EB1f2D8Dff0360C0a4320cc42E7C4d0A4773BA](https://etherscan.io/address/0x57EB1f2D8Dff0360C0a4320cc42E7C4d0A4773BA)
 - [Forum discussion](https://www.emptyset.xyz/t/eip-9-coupon-premium-curve-evolution/87)
 - [Discord discussion](https://discord.com/channels/752342816033603624/790920127428165632/805397433714343947)
-- [DAO vote](https://app.emptyset.finance/#/governance/candidate/0x4202Ffe860A2B77225d446bAfb8e346e054dA361)
+- [DAO vote](https://app.emptyset.finance/#/governance/candidate/0x57EB1f2D8Dff0360C0a4320cc42E7C4d0A4773BA)
 - Commit: [0x374f85804f571b5c2cac24ec6fe4917592ebed94c29084bd6462eaf0e900739f](https://etherscan.io/tx/0x374f85804f571b5c2cac24ec6fe4917592ebed94c29084bd6462eaf0e900739f)
 
 
 
-### 14. Increase Debt Cap to 20%
+## 14. Increase Debt Cap to 20%
 Epoch 357, 2020-12-31
 
 ### Changes
@@ -198,7 +201,7 @@ Epoch 357, 2020-12-31
 - Commit: [0x0953221cb0d5428764113a0f477975ed9b685b6588ff5c9b0fa51e63d5adfc7a](https://etherscan.io/tx/0x0953221cb0d5428764113a0f477975ed9b685b6588ff5c9b0fa51e63d5adfc7a)
 
 
-### 15. EIP-16, Split Coupon Underlying
+## 15. EIP-16, Split Coupon Underlying
 Epoch 399, 2021-01-14
 
 ### Changes
@@ -212,7 +215,7 @@ Epoch 399, 2021-01-14
 - [DAO vote](https://app.emptyset.finance/#/governance/candidate/0x9ac39b3e72f3bc07520355a9be5398656c8bc514)
 - Commit: [0x860c35d474929e3432c17670b430ea1649f5920a37d5e2622d7337cf6bab8e0b](https://etherscan.io/tx/0x860c35d474929e3432c17670b430ea1649f5920a37d5e2622d7337cf6bab8e0b)
 
-### 16. EIP-18, Pro-Rated Premium
+## 16. EIP-18, Pro-Rated Premium
 Epoch 417, 2021-01-20
 
 ### Changes
@@ -226,7 +229,7 @@ Epoch 417, 2021-01-20
 - [DAO vote](https://app.emptyset.finance/#/governance/candidate/0xeF9c0C8cb6d7C5d36cB9EA0d6a1a4FCa4E21aA20)
 - Commit: [0x3cf3b91e8eb21efbca9f58d94ee94dbd31a3e5b5cd436c4728f767b75ce092e6](https://etherscan.io/tx/0x3cf3b91e8eb21efbca9f58d94ee94dbd31a3e5b5cd436c4728f767b75ce092e6)
 
-### 17. EIP-22, Stability Reward
+## 17. EIP-22, Stability Reward
 
 Epoch 432, 2021-01-25
 
