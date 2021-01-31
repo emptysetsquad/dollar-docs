@@ -12,7 +12,7 @@ Epoch 86, 2020-09-22
 
 ### Changes
 - Adds `ESDS` Transfer events when bonding and unbonding.
-- Updates LP incentivization pool cut from 5% to 20%.
+- Updates LP incentivization pool cut from `5%` to `20%`.
 - New LP incentivization pool with:
   - Minor unbonding issue fix
   - Additional `emergencyPause()` and `emergencyWithdraw()` methods
@@ -110,7 +110,7 @@ Epoch 213, 2020-11-13
 ### Changes
 - Increase the expansion rate to `6%` while there are coupons that have not been credited for redemption.
 - Updates the expansion phase such that when there are coupons to be redeemed, a minimum of `20%` of the expansion will be used as rewards for the LP pool.
-- Epoch locks for DAO and LP will be increased from 1 epoch to 15 and 5 epochs, respectively.
+- Epoch locks for `DAO` and `LP` will be increased from 1 epoch to 15 and 5 epochs, respectively.
 
 ### Tracking
 - [Pull request](https://github.com/emptysetsquad/dollar/pull/9)
@@ -121,7 +121,7 @@ Epoch 213, 2020-11-13
 - Commit: [0xb7cfab4efa5e425f8e2d39687f9c8a97ec57ebee40c8dac192d9cda8bcad70d8](https://etherscan.io/tx/0xb7cfab4efa5e425f8e2d39687f9c8a97ec57ebee40c8dac192d9cda8bcad70d8)
 
 
-## 10. EIP-8 Reduce Governance Thresholds
+## 10. EIP-8: Reduce Governance Thresholds
 Epoch 249, 2020-11-25
 
 ### Changes
@@ -160,8 +160,8 @@ Epoch 288, 2020-12-08
 - Rewards `500,000 ESD` to treasury on commit.
   - Treasury address: [0x460661bd4A5364A3ABCc9cfc4a8cE7038d05Ea22](https://etherscan.io/address/0x460661bd4A5364A3ABCc9cfc4a8cE7038d05Ea22)
 - Adds a `2.5%` expansion reward for treasury
-  - `77.5/2.5/20` DAO/Treasury/LP during regular expansion
-  - `77.5/2.5/20` Coupon/Treasury/LP during coupon expansion
+  - `77.5/2.5/20` `DAO/Treasury/LP` during regular expansion
+  - `77.5/2.5/20` `Coupon/Treasury/LP` during coupon expansion
 
 ### Tracking
 - [Pull request](https://github.com/emptysetsquad/dollar/pull/11)
@@ -192,7 +192,7 @@ Epoch 213, 2020-12-23
 Epoch 357, 2020-12-31
 
 ### Changes
-- Implements Debt Cap part of EIP-9
+- Implements Debt Cap part of [EIP-9](#13-eip-9-update-coupon-curve)
 - Raises debt cap from `15%` to `20%`, corresponding to `38.4%` and `56.2%` premiums respectively
 
 ### Tracking
@@ -220,7 +220,7 @@ Epoch 399, 2021-01-14
 Epoch 417, 2021-01-20
 
 ### Changes
-- On redeem the premium portion of the user’s coupon will be pro-rated by the time their ESD was locked.
+- On redeem the premium portion of the user’s coupon will be pro-rated by the time their `ESD` was locked.
 
 ### Tracking
 - [Pull request](https://github.com/emptysetsquad/dollar/pull/18)
@@ -235,7 +235,7 @@ Epoch 417, 2021-01-20
 Epoch 432, 2021-01-25
 
 ### Changes
-- Adds on always-on floating reward rate to the DAO to incentivize bonding during contraction periods.
+- Adds on always-on floating reward rate to the `DAO` to incentivize bonding during contraction periods.
 
 ### Tracking
 - [Pull request](https://github.com/emptysetsquad/dollar/pull/19)
