@@ -130,7 +130,7 @@ Epoch 249, 2020-11-25
 
 
 ### Tracking
-- [Pull request:](https://github.com/emptysetsquad/dollar/pull/10) Note that this PR was not fully applied in the implementation as someone proposed a simplified version of the contract. The QoL improvements were proposed later (see [#11](#11-quality-of-life-improvements-qol-11) below).
+- [Pull request:](https://github.com/emptysetsquad/dollar/pull/10) Note that this PR was not fully applied in the implementation as someone proposed a simplified version of the contract. The QoL improvements were proposed later (see [#11](#11-quality-of-life-improvements) below).
 - Implementation: [fd6d0c38211f29f6668a3e6886ca7dced0162208](https://etherscan.io/address/fd6d0c38211f29f6668a3e6886ca7dced0162208)
 - [Forum discussion](https://www.emptyset.xyz/t/eip-8-quorum-and-proposal-threshold-reductions/)
 - [Discord discussion](https://discord.com/channels/752342816033603624/780110721924464710/780112731364655136)
