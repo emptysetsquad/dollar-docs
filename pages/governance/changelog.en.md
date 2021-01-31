@@ -201,7 +201,7 @@ Epoch 357, 2020-12-31
 - Commit: [0x0953221cb0d5428764113a0f477975ed9b685b6588ff5c9b0fa51e63d5adfc7a](https://etherscan.io/tx/0x0953221cb0d5428764113a0f477975ed9b685b6588ff5c9b0fa51e63d5adfc7a)
 
 
-## 15. EIP-16, Split Coupon Underlying
+## 15. EIP-16: Split Coupon Underlying
 Epoch 399, 2021-01-14
 
 ### Changes
@@ -215,7 +215,7 @@ Epoch 399, 2021-01-14
 - [DAO vote](https://app.emptyset.finance/#/governance/candidate/0x9ac39b3e72f3bc07520355a9be5398656c8bc514)
 - Commit: [0x860c35d474929e3432c17670b430ea1649f5920a37d5e2622d7337cf6bab8e0b](https://etherscan.io/tx/0x860c35d474929e3432c17670b430ea1649f5920a37d5e2622d7337cf6bab8e0b)
 
-## 16. EIP-18, Pro-Rated Premium
+## 16. EIP-18: Pro-Rated Premium
 Epoch 417, 2021-01-20
 
 ### Changes
@@ -229,7 +229,7 @@ Epoch 417, 2021-01-20
 - [DAO vote](https://app.emptyset.finance/#/governance/candidate/0xeF9c0C8cb6d7C5d36cB9EA0d6a1a4FCa4E21aA20)
 - Commit: [0x3cf3b91e8eb21efbca9f58d94ee94dbd31a3e5b5cd436c4728f767b75ce092e6](https://etherscan.io/tx/0x3cf3b91e8eb21efbca9f58d94ee94dbd31a3e5b5cd436c4728f767b75ce092e6)
 
-## 17. EIP-22, Stability Reward
+## 17. EIP-22: Stability Reward
 
 Epoch 432, 2021-01-25
 
