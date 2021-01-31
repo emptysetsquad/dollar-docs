@@ -108,8 +108,8 @@ Epoch 183, 2020-11-03
 ## 9. EIP-3: Removing sequencing from expansion rewards
 Epoch 213, 2020-11-13
 ### Changes
-- Increase the expansion rate to 6% while there are coupons that have not been credited for redemption.
-- Updates the expansion phase such that when there are coupons to be redeemed, a minimum of 20% of the expansion will be used as rewards for the LP pool.
+- Increase the expansion rate to `6%` while there are coupons that have not been credited for redemption.
+- Updates the expansion phase such that when there are coupons to be redeemed, a minimum of `20%` of the expansion will be used as rewards for the LP pool.
 - Epoch locks for DAO and LP will be increased from 1 epoch to 15 and 5 epochs, respectively.
 
 ### Tracking
@@ -130,7 +130,7 @@ Epoch 249, 2020-11-25
 
 
 ### Tracking
-- [Pull request:](https://github.com/emptysetsquad/dollar/pull/10) Note that this PR was not fully applied in the implementation as someone proposed a simplified version of the contract. The QoL improvements were proposed later (see #11 below).
+- [Pull request:](https://github.com/emptysetsquad/dollar/pull/10) Note that this PR was not fully applied in the implementation as someone proposed a simplified version of the contract. The QoL improvements were proposed later (see [#11](#qol-11) below).
 - Implementation: [fd6d0c38211f29f6668a3e6886ca7dced0162208](https://etherscan.io/address/fd6d0c38211f29f6668a3e6886ca7dced0162208)
 - [Forum discussion](https://www.emptyset.xyz/t/eip-8-quorum-and-proposal-threshold-reductions/)
 - [Discord discussion](https://discord.com/channels/752342816033603624/780110721924464710/780112731364655136)
@@ -138,7 +138,7 @@ Epoch 249, 2020-11-25
 - Commit: [0x567a137fed165b5b2ce6a1777b4bea0b3c09cb24d9b10852bf837de7e6b65c5e](https://etherscan.io/tx/0x567a137fed165b5b2ce6a1777b4bea0b3c09cb24d9b10852bf837de7e6b65c5e)
 
 
-### 11. Quality of life improvements, 2020-12-02
+## 11. Quality of life improvements {#qol-11}
 
 ### Changes
 - Removes `Pool 1` migration reward payout.
@@ -159,9 +159,9 @@ Epoch 288, 2020-12-08
 ### Changes
 - Rewards `500,000 ESD` to treasury on commit.
   - Treasury address: [0x460661bd4A5364A3ABCc9cfc4a8cE7038d05Ea22](https://etherscan.io/address/0x460661bd4A5364A3ABCc9cfc4a8cE7038d05Ea22)
-- Adds a 2.5% expansion reward for treasury
-  - 77.5/2.5/20 DAO/Treasury/LP during regular expansion
-  - 77.5/2.5/20 Coupon/Treasury/LP during coupon expansion
+- Adds a `2.5%` expansion reward for treasury
+  - `77.5/2.5/20` DAO/Treasury/LP during regular expansion
+  - `77.5/2.5/20` Coupon/Treasury/LP during coupon expansion
 
 ### Tracking
 - [Pull request](https://github.com/emptysetsquad/dollar/pull/11)
@@ -176,7 +176,7 @@ Epoch 213, 2020-12-23
 ### Changes
 - Steepens the coupon premium curve from: `1/(3(1-R)^2)-1/3` to `1/((1-R)^2)-1`.
 - Lowers debt cap from `35%` to `15%`, corresponding to `45.6%` and `38.4%` premiums respectively.
-- One time 60% reduction in protocol `debt` upon commit to avoid and premium jumps.
+- One time `60%` reduction in protocol `debt` upon commit to avoid and premium jumps.
 
 ### Tracking
 - [Pull request](https://github.com/emptysetsquad/dollar/pull/12)
