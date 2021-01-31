@@ -130,7 +130,7 @@ Epoch 249, 2020-11-25
 
 
 ### Tracking
-- [Pull request:](https://github.com/emptysetsquad/dollar/pull/10) Note that this PR was not fully applied in the implementation as someone proposed a simplified version of the contract. The QoL improvements were proposed later (see [#11](#qol-11) below).
+- [Pull request:](https://github.com/emptysetsquad/dollar/pull/10) Note that this PR was not fully applied in the implementation as someone proposed a simplified version of the contract. The QoL improvements were proposed later (see [#11](#11-quality-of-life-improvements-qol-11) below).
 - Implementation: [fd6d0c38211f29f6668a3e6886ca7dced0162208](https://etherscan.io/address/fd6d0c38211f29f6668a3e6886ca7dced0162208)
 - [Forum discussion](https://www.emptyset.xyz/t/eip-8-quorum-and-proposal-threshold-reductions/)
 - [Discord discussion](https://discord.com/channels/752342816033603624/780110721924464710/780112731364655136)
@@ -138,7 +138,7 @@ Epoch 249, 2020-11-25
 - Commit: [0x567a137fed165b5b2ce6a1777b4bea0b3c09cb24d9b10852bf837de7e6b65c5e](https://etherscan.io/tx/0x567a137fed165b5b2ce6a1777b4bea0b3c09cb24d9b10852bf837de7e6b65c5e)
 
 
-## 11. Quality of life improvements {#qol-11}
+## 11. Quality of life improvements
 
 ### Changes
 - Removes `Pool 1` migration reward payout.
@@ -192,6 +192,7 @@ Epoch 213, 2020-12-23
 Epoch 357, 2020-12-31
 
 ### Changes
+- Implements Debt Cap part of EIP-9
 - Raises debt cap from `15%` to `20%`, corresponding to `38.4%` and `56.2%` premiums respectively
 
 ### Tracking
