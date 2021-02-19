@@ -34,7 +34,7 @@ The best way to visualize this is with the flow below:
 **Deposit/Withdraw ←→ Staged ←→ Bond/Unbond.**
 
 - Any time, you use Bond or Unbond once, you go into a fluid state in that epoch
-- Upon the next epoch, you will go back into the frozen state
+- Your state will remain fluid for 15 epochs
 
 **In fluid state:**
 
@@ -43,10 +43,10 @@ The best way to visualize this is with the flow below:
 
 **In Frozen state:**
 
-- You will be able to deposit and withdraw.
+- You will be able to deposit (stage and bond), withdraw from staged, or unbond (unbonding then starts the 15 epoch exit lockup).
 
-This means when you are bonded and want to withdraw, you will first unbond, spend the rest of the epoch in fluid state and upon next epoch when state changes to frozen, you will be able to withdraw.
+This means when you are bonded and want to withdraw, you will first unbond and then you will be able to withdraw after the 15 epoch exit lockup.
 
-For Deposit, you will be able to deposit and bond in the same epoch as when you deposit and stage you will still be in a frozen state, but as soon as you bond, you will be in a fluid state, so you cannot deposit again in that epoch, or withdraw.
+For Deposit, you will be able to deposit and bond in the same epoch as when you deposit and stage you will still be in a frozen state, but as soon as you bond, you will be in a fluid state, so you cannot deposit again or withdraw for the duration of the 15 epoch lockup.
 
 Frozen and fluid states (also Locked) appear on the wallet page and the LP Reward Pool page of the DAO. This terminology is a bit confusing, but you are basically allowed to interact with the DAO by bonding or unbonding ESD or LP just once per epoch. Frozen and fluid tell you the state of your access to transacting with the DAO. “Frozen” enables you to transact. More state detail is discussed in the white paper.
