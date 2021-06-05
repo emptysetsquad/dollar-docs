@@ -1,8 +1,8 @@
 {
-    "index": "Home",
-    "faqs": "FAQs",
-    "protocol": "Protocol",
-    "governance": "Governance",
-    "audits":"Audits",
-    "resources": "Resources"
+  "index": "Introduction",
+  "protocol": "Protocol",
+  "how-to": "Use Empty Set",
+  "governance": "Governance",
+  "audits": "Audits",
+  "resources": "Resources"
 }
