@@ -32,7 +32,7 @@ The DSU token is the protocol's stablecoin. This token is owned by the **Reserve
 
 ### Registry
 
-The **Registry** maintains a list of all of the addresses and contracts owned by the **Timelock** contract, and by extension the **GovernorAlpha**. It is a central reference point used by the protocol to keep track of the updated contracts. 
+The **Registry** maintains a list of all of the addresses and contracts owned by the **Timelock** contract, and by extension the **GovernorAlpha**. It is a central reference point used by the protocol to keep track of the updated contracts.
 
 ### Incentivizer
 
@@ -42,4 +42,8 @@ The Incentivizer is utilised to provide liquidity mining programs for various li
 
 The code for the Empty Set protocol is [here](https://github.com/emptysetsquad/emptyset).
 
-If you find a bug or security vulnerability please send an email to emptysetsquad@protonmail.com
+## Audit
+
+The protocol code was audited by [OpenZeppelin](https://openzeppelin.com/). You can find the audit on their website [here](https://blog.openzeppelin.com/report-04-01-2021/)
+
+If you find a bug or security vulnerability in our contracts please send an email to emptysetsquad@protonmail.com
