@@ -78,16 +78,16 @@ const Logo = ({ height }) => (
 )
 
 const TITLE_WITH_TRANSLATIONS = {
-  'en-US': 'Decentralized, community owned, collateral-efficient stablecoins',
-  'zh-CN': 'Decentralized, community owned, collateral-efficient stablecoins',
-  'es-ES': 'Decentralized, community owned, collateral-efficient stablecoins',
+  'en-US': 'Decentralized, community-owned, collateral-efficient stablecoins',
+  'zh-CN': 'Decentralized, community-owned, collateral-efficient stablecoins',
+  'es-ES': 'Decentralized, community-owned, collateral-efficient stablecoins',
 }
 
 // theme.config.js
 export default {
   github: 'https://github.com/emptysetsquad/dollar', // link of the project repo
   siteGithub: 'https://github.com/emptysetsquad/dollar-docs', // link of the docs repo path
-  titleSuffix: ' – ESD',
+  titleSuffix: ' – Empty Set',
   nextLinks: true,
   prevLinks: true,
   search: true,
@@ -100,8 +100,8 @@ export default {
     const { locale } = useRouter()
     return (
       <>
-        <Logo height={40} />
-        <span style={{ paddingLeft: 10, marginBottom: -5 }}>
+        <Logo height={30} />
+        <span style={{ paddingLeft: 10, marginBottom: -2 }}>
           {TITLE_WITH_TRANSLATIONS[locale]}
         </span>
       </>
@@ -109,6 +109,7 @@ export default {
   },
   head: (
     <React.Fragment>
+      <link rel="icon" type="image/png" sizes="16x16" href="/icon.png" />
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="theme-color" content="#ffffff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />

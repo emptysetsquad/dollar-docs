@@ -1,25 +1,40 @@
-# Empty Set Dollar - ESD
+# Introduction
 
 ![](/info.png)
 
-## What is Empty Set Dollar?
+## Overview
 
-Empty Set Dollar (ESD) is an algorithmic stablecoin built to be the reserve currency of Decentralized Finance. The protocol is centred around an [ERC-20](https://www.investopedia.com/news/what-erc20-and-what-does-it-mean-ethereum/) token: [ESD](https://www.coingecko.com/en/coins/empty-set-dollar). This token acts both as the stabilized dollar and as the governance token for the protocol. 
-
-In order to self-stabilize, the protocol uses voluntary supply expansions and contractions around a Time Weighted Average Price (TWAP) oracle from the incentivized trading pool on Uniswap.
+Empty Set protocol is a community owned 'de-central bank' that issues a decentralised stablecoin. The protocol mints & redeems it's stablecoin from its reserve of assets and is governed by a separate governance token.
 
 ## Features
 
-ESD has composed a number of different mechanics from various projects into a single protocol. This combination gives it unique features.
+Using a variety of mechanism Empty Set is able to achieve a number of unique properties:
 
-- **Decentralised** - Only upgradable via on-chain token governance 
-- **Self-Stabilising** - Uses an on-chain price oracle
-- **Composable** - The token is a plain ERC-20 token which acts as a stablecoin & a governance token
-- **Opt-in Supply Adjustments** - All supply expansions & contractions are incentivised & voluntary
+- **Decentralised** - Only upgradable via on-chain governance
+- **Community Owned** - Protocols that integrate **DSU** are able to participate in governance
+- **Composable** - Both **DSU** & **ESS** are fully ERC-20 compliant and composable into other platforms.
 
+## Tokens
 
+The Empty Set protocol has two tokens:
+
+### ⊙ Digital Standard Unit (DSU)
+
+DSU is the stablecoin the protocol issues. This token's purpose is to serve as an analogue other liability backed stablecoins while offering greater decentralisation.
+
+This token is freely mint-able from the Empty Set reserve and can also be redeemed for assets in the Reserve at the current reserve ratio.
+
+### ∅ Empty Set Share (ESS)
+
+ESS is the protocol's governance token. It can be used to vote or propose governance actions within the protocol. In addition to its governance role, it also serves as a seignorage share and collateral backstop for the protocol.
+
+## Community
+
+Empty Set has a number of community platforms:
+
+- [Discord](https://discord.com/invite/vPws9Vp) - Main platform where developers, teams and community members interact.
+- [Telegram](https://t.me/emptysetdollar) - Serves a similar function to the discord server. Chinese group.
+- [Forum](https://www.emptyset.xyz/) - Used to facilitate governance actions and discussions
+- [Twitter](https://twitter.com/emptysetdollar/) - Provides updates on governance, partnerships and upgrades to the community.
 
 [**See additional articles, guides and resources here**](/resources)
-
-
-
